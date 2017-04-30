@@ -212,11 +212,7 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>${org.slf4j.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.frontpay</groupId>
-			<artifactId>frontpay-common</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
+
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -322,7 +318,7 @@
 	</dependencies>
 
 
-	<repositories>
+	<!-- <repositories>
 		<repository>
 			<id>frontPay-nexus</id>
 			<name>frontPay nexus</name>
@@ -334,33 +330,7 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-	</repositories>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<id>frontPay-nexus</id>
-			<name>frontPay nexus</name>
-			<url>http://10.1.21.1:8081/nexus/content/groups/public/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
-
-	<distributionManagement>
-		<repository>
-			<id>releases</id>
-			<url>http://10.1.21.1:8081/nexus/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<url>http://10.1.21.1:8081/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
-
+	</repositories> -->
 
 	<build>
 		<finalName>${project.artifactId}</finalName>
