@@ -18,5 +18,9 @@ public class TestController {
 	public String test() {
 		return "test";
 	}
+	
+	public String method(){
+		return "method";
+	}
 
 }
