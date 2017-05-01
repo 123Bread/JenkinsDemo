@@ -20,6 +20,7 @@ public class TestController {
 	}
 	
 	public String method(){
+		System.out.println("ddd");
 		return "method";
 	}
 
