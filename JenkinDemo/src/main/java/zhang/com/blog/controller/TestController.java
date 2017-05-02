@@ -20,9 +20,13 @@ public class TestController {
 	}
 	
 	public String method(){
+		System.out.println("confilct---conflict");
 		System.out.println("ddd");
 		System.out.println("conflict");
 		return "method";
 	}
-
+	
+	public String conflict(){
+		return "conflict";
+	}
 }
