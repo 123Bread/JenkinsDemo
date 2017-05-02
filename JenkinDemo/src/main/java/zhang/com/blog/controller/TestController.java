@@ -21,6 +21,7 @@ public class TestController {
 	
 	public String method(){
 		System.out.println("ddd");
+		System.out.println("conflict");
 		return "method";
 	}
 
