@@ -28,6 +28,7 @@ public class TestController {
 	
 	public String conflict(){
 		System.out.println("confilct---conflict");
+		System.out.println("confilct---conflict");
 		return "conflict";
 	}
 }
