@@ -318,19 +318,7 @@
 	</dependencies>
 
 
-	<!-- <repositories>
-		<repository>
-			<id>frontPay-nexus</id>
-			<name>frontPay nexus</name>
-			<url>http://10.1.21.1:8081/nexus/content/groups/public/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories> -->
+	
 
 	<build>
 		<finalName>${project.artifactId}</finalName>
