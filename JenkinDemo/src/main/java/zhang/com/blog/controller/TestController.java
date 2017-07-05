@@ -31,4 +31,10 @@ public class TestController {
 		System.out.println("confilct---conflict");
 		return "conflict";
 	}
+	
+	public String zhang(){
+		System.out.println("confilct---conflict");
+		System.out.println("confilct---conflict");
+		return "conflict";
+	}
 }
