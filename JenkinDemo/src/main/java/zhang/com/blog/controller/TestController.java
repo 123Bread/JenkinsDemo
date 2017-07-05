@@ -16,9 +16,8 @@ public class TestController {
 	@RequestMapping("/test")
 	@ResponseBody
 	public String test() {
-		return "test";
+		return "test1";
 	}
-	
 	public String method(){
 		System.out.println("confilct---conflict");
 		System.out.println("ddd");
@@ -27,6 +26,12 @@ public class TestController {
 	}
 	
 	public String conflict(){
+		System.out.println("confilct---conflict");
+		System.out.println("confilct---conflict");
+		return "conflict";
+	}
+	
+	public String home(){
 		System.out.println("confilct---conflict");
 		System.out.println("confilct---conflict");
 		return "conflict";
